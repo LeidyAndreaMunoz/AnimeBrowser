@@ -1,0 +1,16 @@
+.header {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .header-home-img img {
+    width: 150px;
+}
+.header span {
+    padding: 1%;
+}
+.header span a {
+    text-decoration: none;
+    color: black;
+}

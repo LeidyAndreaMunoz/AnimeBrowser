@@ -1,0 +1,24 @@
+.containerResults {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+}
+.containerResults h1, h5 {
+    color: teal;
+}
+.containerResults .card-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.containerResults .containerResults-grid {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(246px,2fr));
+    text-align: center;
+    gap: 50px;
+}
+.containerResults .containerResults-grid .card:hover {
+    box-shadow: -1px 0px 11px -2px rgba(69,134,214,1);
+    cursor: pointer;
+}
