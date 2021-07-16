@@ -3,7 +3,7 @@ import img_Logo from "../../assets/img/Logo-Header.png";
 
 const Header = () => {
     const view = `
-          <span class="header-home-img"><img src="${img_Logo}" alt="Logo"></span>
+          <a href="#home" class="header-home-img"><img src="${img_Logo}" alt="Logo"></a>
           <span><a href="#home">Acerca de nosotros</a></span>
       `;
     return view;

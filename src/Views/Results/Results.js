@@ -1,10 +1,10 @@
 import "./Results.css";
 import getData from "../../utils/getData";
 
+
 const Results = async() => {
 
     let userInput = localStorage.getItem('userSearch');
-
     const animes = await getData(userInput);
     const view = `
     <div class="containerResults">
@@ -26,5 +26,6 @@ const Results = async() => {
         </div>
     </div>`;
     return view;
+    
 }
 export default Results;
